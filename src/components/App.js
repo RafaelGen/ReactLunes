@@ -15,7 +15,7 @@ class App extends Component {
         <Header titulo="Primer Titulo"/>
       {/*<Header titulo="Segundo Titulo"/>*/}
         <Home/>
-        <Contenedor celular={"Xiaomi"} precio={3500} oBJcelular={celular} />
+      <Contenedor celular={"Xiaomi"} Initialprecio={3500} oBJcelular={celular} />
         <Footer/>
       </div>
     );

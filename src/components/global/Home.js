@@ -28,7 +28,7 @@ class Home extends Component {
 
   render() {
     //var nombre = 'Rafa';
-    var nombre = this.state.nombre;
+    var nombre = this.state.nombre
 
     return (
       <div className="App-Home">

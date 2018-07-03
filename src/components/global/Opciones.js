@@ -5,13 +5,13 @@ class Opciones extends Component {
     super(props);
   }
   render() {
-    var opciones = this.props.options
+    let opciones = this.props.options
     return (
       <div className="App-options">
         <ul>
-          {opciones.map((option)=> <li>{option}</li>)}
+          {opciones.map((option,i)=> <li key={i}>{option}</li>)}
         </ul>
-        <button onClick={this.props.agregarOpcion}>
+        <button onClick={this.props.onAddOpcion}>
           agregar opciones</button>
       </div>
     );
