@@ -11,7 +11,7 @@ class Header extends Component {
       //este es un comentario
       <div className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h1 className="App-title">Welcome to React</h1>
+      <h1 className="App-title">Welcome to {this.props.titulo}</h1>
       </div>
     );
   }
